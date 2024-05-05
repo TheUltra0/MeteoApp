@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/NivoTest/app/src/main/res/layout-sw420dp/fragment_checklist2.xml" value="0.1" />
+        <entry key="..\:/projects/NivoTest/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/projects/NivoTest/app/src/main/res/layout/conditii_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/projects/NivoTest/app/src/main/res/layout/firstlayout.xml" value="0.10101010101010101" />
+        <entry key="..\:/projects/NivoTest/app/src/main/res/layout/fragment_checklist1.xml" value="0.20100502512562815" />
+        <entry key="..\:/projects/NivoTest/app/src/main/res/layout/fragment_checklist2.xml" value="2.282142857142857" />
+        <entry key="..\:/projects/NivoTest/app/src/main/res/layout/restore.xml" value="0.36666666666666664" />
+        <entry key="..\:/projects/NivoTest/app/src/main/res/menu/toolbar_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="C:\Flutter" location="$PROJECT_DIR$/../src/flutter/bin/dart" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

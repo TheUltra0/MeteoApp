@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">NivoTest</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="String">textView</string>
+    <string name="stylish_text">
+        <b>Ploaie:</b> A plouat în ultimele 2 zile?
+    </string>
+    <string name="stylish_text2">
+        <b>Cădere de zăpadă:</b> A nins mai mult de 20 cm în ultimele 3 zile?
+    </string>
+    <string name="stylish_text3">
+        <b>Transport de zăpadă:</b> A batut vântul peste zăpadă în ultimele 5 zile?
+    </string>
+    <string name="stylish_text4">
+        <b>Temperatura aerului</b> mai mare de 0 grade Celsius?
+    </string>
+    <string name="stylish_text5">
+        <b>Vizibilitate redusă</b> (noapte, ceaţă, viscol…)?
+    </string>
+    <string name="stylish_text6">
+        <b>Zăpadă adâncă </b> (înfunzi piciorul 20-40 cm)?
+    </string>
+    <string name="stylish_text7">
+        <b>Zăpadă foarte adâncă</b> (înfunzi piciorul peste 40 cm)?
+    </string>
+    <string name="stylish_text8">
+        <b>Zăpadă umedă?</b>
+    </string>
+    <string name="stylish_text9">
+        <b>Strat de zăpadă neregulat </b> (grosime, structură)?
+    </string>
+    <string name="stylish_text10">
+        <b>Troiene </b> sau <b>Cornişe?</b>
+    </string>
+    <string name="stylish_text11">
+        <b>Strat intern fragil? </b> Posibil după chiciură sau pe versant fără soare după frig?
+    </string>
+    <string name="stylish_text12">
+        <b>Avalanşă </b> produsă în timpul zilei?
+    </string>
+    <string name="stylish_text13">
+        <b>Avalanşă </b> produsă ieri sau alaltăieri?
+    </string>
+    <string name="stylish_text14">
+        <b>Fisuri </b> în stratul de zăpadă?
+    </string>
+    <string name="stylish_text15">
+        Traseu <b> fără zone de adăpost?</b>
+    </string>
+    <string name="stylish_text16">
+        Traseu <b> expus </b> (avalanşe, crevase)?
+    </string>
+    <string name="stylish_text17">
+        Zonă <b> rar frecventată?</b>
+    </string>
+    <string name="stylish_text18">
+       Traseu cu <b> pante înclinate </b> 30 grade şi peste?
+    </string>
+    <string name="stylish_text19">
+        Traseu dominat de <b> pante înclinate </b> 30 grade şi peste?
+    </string>
+    <string name="stylish_text25">
+        Traseu cu <b> pante înclinate convexe?</b>
+    </string>
+    <string name="stylish_text20">
+        Participant cu <b> nivel tehnic redus?</b>
+    </string>
+    <string name="stylish_text21">
+        Participant cu <b> condiţie fizica slabă?</b>
+    </string>
+    <string name="stylish_text22">
+        Participant <b> fără echipament de salvare (lopată, DVA, sondă)?</b>
+    </string>
+    <string name="stylish_text23">
+        Grup de <b> peste 5 persoane sau mai mic de 3 persoane?</b>
+    </string>
+    <string name="stylish_text24">
+       Grup <b> neantrenat pentru acordarea de ajutor?</b>
+    </string>
+    <string name="firstlayout">
+        Aplicatie folosita pentru a estima riscul avalanselor din zona montana acoperita cu zapada, rezervata persoanelor experimentate, care se utilizeaza pe propria raspundere. Cititi cu atentie instructiunile, meniul si manualul!
+    </string>
+    <string name="nota1">
+        -Consultati de fiecare data buletinul oficial de avalanse si informatiile locale \n\n Purtati intotdeauna echipamentul de siguranta pentru avalansa - tranceiver, sonda, lopata \n\n -Evitati zonele expuse \n\n -Aveti grija daca sunteti legati in coarda \n\n -Considerati in permanenta ca nu exista 0 (zero) riscuri
+    </string>
+    <string name="nota2">
+        Check-list 1: raspundeti la fiecare intrebare. In caz de incertitudine, raspundeti afirmativ cu prima varianta. \n\n Check-list 2: raspundeti la fiecare intrebare daca este posibil \n\n -Consultati diagnosticul si tabelul dupa ce ati raspuns la toate intrebarile din CHeck-list 1 si eventual la cele din Check-list 2 \n\n -Ignorati indicatiile daca toate pantele din jur au mai putin de 25 de grade inclinare sau sunt deja curatate de zapada, sau protejate total (cu protectii anti-avalansa) sau in cazul unei zone care este inghetata. \n\n PS. Nu folositi diagnosticul acestei aplicatii daca nu aveti suficiente informatii si cunostiinte despre situatia locala.
+    </string>
+    <string name="nota3">
+        Nota importanta.
+    </string>
+    <string name="continua">Continua</string>
+    <string name="conditii1">
+        Conditii generale de utilizare
+    </string>
+    <string name="conditii2">
+        Introducere
+    </string>
+    <string name="conditii3">
+        Accesul si utilizarea aplicatiei sunt supuse conditiilor de utilizare care definesc drepturile si obligatiile persoanelor care folosesc aplicatia. Meteorisk atrage atentia asupra responsabilitatii utilizatorului si a asumarii pericolelor pe propria raspundere.\n\n Fiecare persoana care acceseaza aplicatia accepta acesti termeni si conditiile de utilizare.
+    </string>
+    <string name="conditii4">
+        1. Drepturile utilizatorului
+    </string>
+    <string name="conditii5">
+        1.1 Aplicatia este disponibila prin toate modelele de smartphone Android.
+    </string>
+    <string name="conditii6">
+        1.2 Accesul la aplicatie ofera fiecarui utilizator un drept personal de a folosi aplicatia pentru a estima riscul de avalansa in zona locala si/sau cunostintele lor despre vremea zapezii, cu acesti termeni si conditii de utilizare si instructiunile utilizatorului Meteorisk
+    </string>
+    <string name="conditii7">
+        2. Obligatiile
+    </string>
+    <string name="conditii8">
+        2.1 Utilizarea aplicatiei este rezervata doar persoanelor care au trecut de varsta de 18 ani.
+    </string>
+    <string name="conditii9">
+        2.2 Avand in vedere articolul 2.1 din Conditiile de utilizare, accesul la aplicatie de catre persoanele care inca nu au ajuns la varsta de 18 ani, au nevoie de autorizarea si acordul parintilor sau a unui tutore legal
+    </string>
+    <string name="conditii10">
+        2.3 Acceptand acest conditii de utilizare, fiecare utilizator accepta indirect toate celelalte conditii de la articolul 2 din Conditii de utilizare
+    </string>
+    <string name="conditii11">
+        3. Aplicatia
+    </string>
+    <string name="conditii12">
+        3.1 Aplicatia este bazata pe “unealta” Nivotest creata de meteo-nivologistul Roberto Bolognesi.\n “Unealta” consta in intrebari despre diferite conditii meteorologice, topografice si alti factori care pot avea un impact asupra riscului de avalansa in situatii concrete
+    </string>
+    <string name="conditii13">
+        3.2 Asigurati-va ca aplicatia este folosita in conformitate cu termenii si conditiile precum si instructiunile de utilizare Meteorisk. Aplicatia ar putea imbunatatii clarificarea riscului de avalanse in zona locala sau pe traseul ales, in circumstante specifice
+    </string>
+    <string name="conditii14">
+        4. Modificarile aplicatiei si ale conditiilor generale de utilizare
+    </string>
+    <string name="conditii15">
+        4.1 Meteorisk rezerva dreptul de a modifica aplicatia oricand, atat interfata utilizatorului, cat si temenii si functionalitatea. Meteorisk poate in particular sa modifice lista de intrebari adaugand sau stergand intrebari sau alti factori externi. Meteorisk ii informeaza pe utilizatori oricand se face o modificare directa in aplicatie.
+    </string>
+    <string name="conditii16">
+        4.2 Meteorisk poate face schimbari la acesti termeni si conditii oricand. Meteorisk o sa informeze utilizatorii in cazul in care s-a produs o schimbare in aplicatie.
+    </string>
+    <string name="conditii17">
+        4.3 Continuarea folosirii acestei aplicatii de catre utilizator inseamna acordul si acceptarea modificarilor de catre aplicatie la nivelul temenilor si conditiilor. Daca un utilizator nu accepta modificarile facute de aplicatie si/sau de termeni si conditii, singurul remedeiu este ca respectivul sa se delimiteze termenii si conditiile, conform articului 9.2
+    </string>
+    <string name="conditii18">
+        5. Responsabilitatile utilizatorului
+    </string>
+    <string name="conditii19">
+        5.1 Toate lucrurile necesare pentru a accesa aplicatia, cum ar fi hardware, software, accesul la internet si instalarea aplicatiei sunt exclusiv responsabilitatile utilizatorului.
+    </string>
+    <string name="conditii20">
+        5.2 Fiecare utilizator este responsabil pentru propria functionare a dispozitivului pe care foloseste aplicatia, cat si accesul la internet pentru a avea acces la anumite parti din aplicatie.
+    </string>
+    <string name="conditii21">
+        5.3 Fiecare utilizator este responsabil de a lua masuri de siguranta cu echipament specific pentru a se proteja de riscul de avalansa pe toata durata turei montane.
+    </string>
+    <string name="conditii22">
+        5.4 Fiecare utilizator admite ca aplicatia nu este creata pentru a verifica riscul avalanselor in zona, informatii anume ale colegilor, buletinul de avalanse, conditiile ploii si ale zapezii, incluzand rapoarte relevante pentru a completa cercetarea riscului de avalanse.
+    </string>
+    <string name="conditii23">
+        5.5 Fiecare utilizator isi da acordul de a urma instructiunile Meteorisk pentru a folosii si a raspunde cu adevarat si corespunzator tuturor intrebarilor Nivotest. Toti utilizatorii care folosesc testul Nivotest trebuie sa aiba suficiente cunostinte pentru a raspunde la intrebari, pentru un diagnostic cat mai bun si corect. Inainte de a folosii aplicatia, fiecare utilizator ar trebui sa obtina suficiente detalii ca sa raspunda intrebarilor despre situatia nivo-meterologica si pentru a obtine experienta necesara, in general in ture montane insotite de experti.
+    </string>
+    <string name="conditii24">
+        5.6 Fiecare utilizator admite ca nicio parte teoretica nu o sa compenseze partea practica. Fiecare utilizator garanteaza ca o sa raspunda cu grija si responsabil la intrebarile Nivotest
+    </string>
+    <string name="conditii25">
+        6. Excluderea reponsabilitatii Meteorisk
+    </string>
+    <string name="conditii26">
+        6.1 Meteorisk face aplicatia accesibila utilizatorilor fara promisiunea de a fi actualizata.\n Fiecare utilizator admite ca indiferent de termeni si conditii, riscul avalanselor si posibilele consecinte avand in vedere inclusiv incidentele nu pot sa fie excluse.\n Fiecare utilizare a aplicatiei,in particular in zonele respective, nu anuleaza complet orice risc pentru utilizator.
+    </string>
+    <string name="conditii27">
+        6.2 Instructiunile Meteorisk ofera respectivului cele mai bune informatii (privind avalansele, raportul vremii, raportul zapezii, functionand in teorie in zone meteorologice cu zapada. Desi Meteorisk face toate eforturile necesare pentru a avea informatii cat mai precise si corecte, Meteorisk nu isi asuma responsabilitatea pentru actualizarile lor, acuratetea informatiilor, completarii sau intelegerii.
+    </string>
+    <string name="conditii28">
+        6.3 Meteorisk raspunde doar daunelor directe cauzate de o greseala dovedita in concordanta directa cu acesti termeni si conditii si instructiunile Meteorisk de folosire.
+    </string>
+    <string name="conditii29">
+        6.4 Orice tragere de raspundere a Meteorisk pentru daune indirecte sau daune cauzate de nerespectarea termenilor si conditiilor este exclusa.
+    </string>
+    <string name="conditii30">
+        6.5 Excluderea raspunderii sub articolele 6.3-6.4 Termeni si conditii, impreuna cu angajatii si responsabilii Meteorisk
+    </string>
+    <string name="conditii31">
+        7. Proprietatea intelectuala
+    </string>
+    <string name="conditii32">
+        7.1 Fiecare utilizator admite proprietatea Meteorisk din aplicatie si a “uneltei” Nivotest.
+    </string>
+    <string name="conditii33">
+        7.2 Aplicatia nu raspunde pentru nici o modificare facuta de utilizator in cadrul aplicatiei, incluzand in particular “unealta” Nivotest, sau instructiunile de folosire.
+    </string>
+    <string name="conditii34">
+        7.3 Dreptul utilizatorului in conformitate cu articolul 1.2 din Conditii generale de utilizare nu ii permite in niciun mod dreptul de a modifica codurile aplicatiei, sau de a accesa compilatorul sau orice alta tehnica.
+    </string>
+    <string name="conditii35">
+        8. Politica de confidentialitate
+    </string>
+    <string name="conditii36">
+        8.1 Meteorisk nu colecteaza nicio informatie personala de la utilizatori. Meteorisk poate colecta doar informatii care au in vedere aplicatia si uneltele acestora.
+    </string>
+    <string name="conditii37">
+        8.2 Meteorisk nu distribuie nicio informatie fara autorizatia utilizatorului, exceptand cererea directa a utilizatorului, unui mandat sau orice alta forma oficiala care poate cere distribuirea informatiilor
+    </string>
+    <string name="conditii38">
+        9. Durata si rezilierea
+    </string>
+    <string name="conditii39">
+        9.1 Acesti termeni si conditii, vin in acceptarea de catre utilizator si raman valabile cat timp utilizatorul continua sa foloseasca aplicatia
+    </string>
+    <string name="conditii40">
+        9.2 Fiecare utilizator este liber sa renunte la acesti termeni si conditii oricand, prin stergerea aplicatiei de pe toate dispozitivele in care este instalata aplicatia.
+    </string>
+    <string name="anena">
+        Asociația Națională pentru Studiul Zăpezii și Avalanșelor
+    </string>
+    <string name="anena2">
+        https://www.anena.org/
+    </string>
+
+
+
+
+
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".fragments.checklist1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/const4"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diagnosticul nu este accesibil"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.045" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raspundeti la toate intrebarile din Check-list 1 si Check-list 2 pentru a accesa diagnosticul"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv2"
+            app:layout_constraintVertical_bias="0.045" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lock"
+            android:scaleX="2"
+            android:scaleY="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/const3"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/textView2255"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="Scor"
+            android:layout_marginTop="25dp"
+            android:textSize="40dp"
+            android:translationZ="2000dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/messageInput2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ext"
+            android:textSize="35dp"
+            android:translationZ="2000dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2255"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview2"
+            android:layout_width="253dp"
+            android:layout_height="122dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/messageInput2"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview"
+            android:layout_width="380dp"
+            android:layout_height="370dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/messageInput3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="A (situatia pare sigura):Vigilență normală: se va avea grijă la eventualele instabilităţi punctuale și supravegheaţi evoluția
+condiţiilor."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:translationZ="2000dp"
+            app:layout_constraintBottom_toTopOf="@+id/messageInput4"
+            app:layout_constraintEnd_toStartOf="@id/imageview"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageview2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/messageInput4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B (situatie suspecta): Vigilență sporită: parcurgeți zonă cu prudență, evitaţi toate pasajele expuse şi mergeţi de la un adăpost
+la altul."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:translationZ="2000dp"
+            app:layout_constraintBottom_toTopOf="@+id/messageInput5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageview"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/messageInput5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C (situatie delicata): Vigilență extremă: e preferabil să se renunţe deocamdată la acest traseu, cu excepția celor foarte
+experimentați."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:translationZ="2000dp"
+            app:layout_constraintBottom_toTopOf="@+id/messageInput6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/messageInput4"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/messageInput6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D (situatie periculoasa): Este foarte recomandat să se renunțe la traseu, cu excepția cazurilor foarte particulare (retragere de
+urgentă, salvare...)"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:translationZ="2000dp"
+            app:layout_constraintBottom_toTopOf="@+id/messageInput7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/messageInput5"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/messageInput7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Perfectionati raspunsurile si repetati testul, in caz de nedumerire, renuntati la traseu."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginBottom="45dp"
+            android:translationZ="2000dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/messageInput6"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</FrameLayout>

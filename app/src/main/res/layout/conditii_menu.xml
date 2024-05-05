@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/turcoaz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Conditii de utilizare."
+            app:titleTextColor="@color/black" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii1"
+                android:textSize="35sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii2"
+                android:textSize="30sp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii3"
+                android:textSize="17sp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii4"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii5"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii6"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii7"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii8"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii9"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii10"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii11"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii12"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii13"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii14"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii15"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii16"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii17"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii18"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii19"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii20"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii21"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii22"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii23"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii24"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii25"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii26"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii27"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii28"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii29"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii30"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii31"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii32"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii33"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii34"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii35"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii36"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii37"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii38"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii39"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conditii40"
+                android:textSize="17sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="25dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
